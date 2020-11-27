@@ -105,3 +105,4 @@ theme: butterfly
 deploy:
   type: git
   repo: https://github.com/Spongebobo/Spongebobo.GitHub.io.git
+  branch: gh-pages

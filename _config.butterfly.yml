@@ -250,7 +250,7 @@ comments:
   text: false # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: true
+  lazyload: false
   count: true # Display comment count in top_img
 
 # disqus
@@ -497,7 +497,7 @@ enter_transitions: true
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
@@ -543,8 +543,6 @@ ClickShowText:
   enable: false
   text:
     - 接
-    - 化
-    - 发
   fontSize: 15px
   random: false
   mobile: false
